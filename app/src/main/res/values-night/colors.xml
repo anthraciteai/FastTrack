@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Anthracite brand (shared light/dark) ===== -->
+    <color name="brand_ember">#FF7A1A</color>
+    <color name="brand_gold">#FFC24B</color>
+    <color name="brand_ink">#1A0F02</color>
+
+    <!-- ===== Material 3 DARK scheme: the web app's "anthracite" surfaces ===== -->
+    <color name="md_primary">#FF7A1A</color>
+    <color name="md_on_primary">#3A1700</color>
+    <color name="md_primary_container">#5A3310</color>
+    <color name="md_on_primary_container">#FFDCC2</color>
+
+    <color name="md_secondary">#FFC24B</color>
+    <color name="md_on_secondary">#3D2E00</color>
+    <color name="md_secondary_container">#574400</color>
+    <color name="md_on_secondary_container">#FFE0A0</color>
+
+    <color name="md_tertiary">#B3A8FF</color>
+    <color name="md_on_tertiary">#2A1E63</color>
+    <color name="md_tertiary_container">#413594</color>
+    <color name="md_on_tertiary_container">#E5DEFF</color>
+
+    <color name="md_error">#FF5D5D</color>
+    <color name="md_on_error">#5A0000</color>
+    <color name="md_error_container">#7A1414</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+
+    <!-- bg #0a0b0d, bg-2 #0e1013, surface #14161b, surface-2 #1a1d24 (from the web design system) -->
+    <color name="md_background">#0A0B0D</color>
+    <color name="md_on_background">#F5F6F8</color>
+    <color name="md_surface">#0E1013</color>
+    <color name="md_on_surface">#F5F6F8</color>
+    <color name="md_surface_variant">#1A1D24</color>
+    <color name="md_on_surface_variant">#A3A9B4</color>
+    <color name="md_surface_container">#14161B</color>
+    <color name="md_surface_container_high">#1A1D24</color>
+    <color name="md_outline">#6F7580</color>
+    <color name="md_outline_variant">#2A2E37</color>
+
+    <!-- ===== Feature accents (dark) — mirror the web product accents ===== -->
+    <color name="accent_water">#7FB8FF</color>
+    <color name="accent_water_container">#15314E</color>
+    <color name="accent_nutrition">#35D07F</color>
+    <color name="accent_nutrition_container">#0F3D26</color>
+    <color name="accent_exercise">#FF8A5C</color>
+    <color name="accent_exercise_container">#4E2110</color>
+    <color name="accent_fasting">#B3A8FF</color>
+    <color name="accent_fasting_container">#2E2563</color>
+
+    <color name="macro_protein">#FF5D5D</color>
+    <color name="macro_carbs">#FFC24B</color>
+    <color name="macro_fat">#FFD56B</color>
+</resources>

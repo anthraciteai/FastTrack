@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="32dp"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/categoryDot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/bg_icon_circle"
+        android:backgroundTint="@color/accent_exercise"
+        tools:backgroundTint="@color/accent_exercise" />
+
+    <TextView
+        android:id="@+id/categoryLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="14sp"
+        tools:text="Running" />
+
+    <TextView
+        android:id="@+id/categoryValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:textSize="14sp"
+        tools:text="8.2 mi" />
+</LinearLayout>

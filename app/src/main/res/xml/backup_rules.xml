@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="fasttrack.db" />
+    <include domain="database" path="fasttrack.db-wal" />
+    <include domain="database" path="fasttrack.db-shm" />
+    <include domain="sharedpref" path="fasttrack_prefs.xml" />
+    <include domain="file" path="fasttrack-snapshot.json" />
+</full-backup-content>

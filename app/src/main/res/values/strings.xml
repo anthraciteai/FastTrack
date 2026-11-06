@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">FastTrack</string>
+    <string name="app_tagline">Fast smarter. Live lighter.</string>
+    <string name="widget_description">Start a fast, watch the timer, and start a workout from your home screen.</string>
+    <string name="widget_ready_to_fast">Ready to fast</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_dashboard">Home</string>
+    <string name="nav_fasting">Fasting</string>
+    <string name="nav_log">Log</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_movement">Movement</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Common -->
+    <string name="action_add">Add</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_undo">Undo</string>
+    <string name="schedule_reschedule_undone">Reschedule undone</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_done">Done</string>
+    <string name="action_see_all">See all</string>
+    <string name="action_sync_now">Sync now</string>
+
+    <!-- Dashboard -->
+    <string name="dash_greeting">Good morning</string>
+    <string name="dash_today">Today</string>
+    <string name="dash_focus_today">Your focus today</string>
+    <string name="dash_energy_balance">Energy balance</string>
+    <string name="dash_fasting_card">Fasting</string>
+    <string name="dash_water_card">Hydration</string>
+    <string name="dash_nutrition_card">Nutrition</string>
+    <string name="dash_exercise_card">Movement</string>
+    <string name="dash_movement_empty">Log any activity with distance — a run, walk, hike, or game — to start tracking your weekly miles.</string>
+    <string name="dash_movement_today">Today</string>
+    <string name="dash_movement_week">Week</string>
+    <string name="dash_movement_today_empty">No movement logged today yet — get moving!</string>
+    <string name="dash_streak">day streak</string>
+    <string name="day_prev">Previous day</string>
+    <string name="day_next">Next day</string>
+    <string name="dash_last_7_days">Last 7 days</string>
+    <string name="dash_insights">Insights</string>
+
+    <!-- Fasting -->
+    <string name="fasting_title">Fasting</string>
+    <string name="fasting_start">Start fast</string>
+    <string name="fasting_stop">End fast</string>
+    <string name="fasting_elapsed">Elapsed</string>
+    <string name="fasting_remaining">Remaining</string>
+    <string name="fasting_eating_window">Eating window</string>
+    <string name="fasting_goal">Goal</string>
+    <string name="fasting_choose_protocol">Choose protocol</string>
+    <string name="fasting_history">History</string>
+
+    <!-- Water -->
+    <string name="water_title">Hydration</string>
+    <string name="water_goal_label">Daily goal</string>
+    <string name="water_add_custom">Custom amount</string>
+
+    <!-- Nutrition -->
+    <string name="nutrition_title">Nutrition</string>
+    <string name="nutrition_add_food">Add food</string>
+    <string name="nutrition_calories">Calories</string>
+    <string name="nutrition_protein">Protein</string>
+    <string name="nutrition_carbs">Carbs</string>
+    <string name="nutrition_fat">Fat</string>
+
+    <!-- Meal editor (multi-item food logging) -->
+    <string name="nutrition_log_meal">Log a meal</string>
+    <string name="meal_editor_title">Log a meal</string>
+    <string name="meal_editor_name_hint">Meal name (optional)</string>
+    <string name="meal_breakfast">Breakfast</string>
+    <string name="meal_lunch">Lunch</string>
+    <string name="meal_dinner">Dinner</string>
+    <string name="meal_snack">Snack</string>
+    <string name="meal_editor_describe_hint">Describe your meal</string>
+    <string name="meal_editor_describe_helper">e.g. 4 ciders, 1 beer, a philly cheesesteak and fries</string>
+    <string name="meal_editor_parse">Break into items</string>
+    <string name="meal_editor_items">Items</string>
+    <string name="meal_editor_empty">No items yet. Describe your meal above or add one manually.</string>
+    <string name="meal_editor_add_item">Add item manually</string>
+    <string name="meal_editor_load_sample">Load example meal</string>
+    <string name="meal_editor_export">Export all meals (JSON)</string>
+    <string name="meal_editor_delete_meal">Delete this meal</string>
+    <string name="meal_editor_saved">Meal saved</string>
+    <string name="meal_editor_deleted">Meal deleted</string>
+    <string name="meal_editor_need_items">Add at least one item before saving</string>
+    <string name="meal_editor_parsing">Breaking it down…</string>
+    <string name="meal_editor_parse_failed">Couldn\'t parse that — add items manually</string>
+    <string name="meal_item_name">Item name</string>
+    <string name="meal_item_quantity">Quantity</string>
+    <string name="meal_item_unit">Unit</string>
+    <string name="meal_item_calories_hint">Calories per unit (leave blank if unknown)</string>
+    <string name="meal_item_cal_est">Est.</string>
+    <string name="meal_item_cal_low">Low</string>
+    <string name="meal_item_cal_high">High</string>
+    <string name="meal_item_macros_hint">Macros per unit in grams (blank = unknown)</string>
+    <string name="meal_item_alcohol">Alcohol (g)</string>
+    <string name="meal_item_alcoholic">Alcoholic</string>
+    <string name="meal_item_verified">I\'ve verified these numbers</string>
+    <string name="meal_item_new">New item</string>
+    <string name="meal_item_edit">Edit item</string>
+
+    <!-- Food log export -->
+    <string name="nutrition_export">Export food log (JSON)</string>
+    <string name="export_choose_range">Export food log</string>
+    <string name="export_empty">No meals in that range to export yet</string>
+    <string name="export_failed">Couldn\'t prepare the export</string>
+
+    <!-- Exercise -->
+    <string name="exercise_title">Movement</string>
+    <string name="exercise_start_activity">Start activity</string>
+    <string name="exercise_stop_activity">Stop workout</string>
+    <string name="exercise_live">Live</string>
+    <string name="exercise_log_manual">Log manually</string>
+    <string name="exercise_connect_watch">Connect Garmin watch</string>
+    <string name="exercise_connect_health">Connect Health Connect</string>
+    <string name="exercise_view_trends">Trends &amp; progress</string>
+
+    <!-- Movement / Trends -->
+    <string name="trends_title">Movement</string>
+    <string name="trends_sync">Sync</string>
+    <string name="sync_howto_title">Sync your Garmin</string>
+    <string name="sync_howto_body">FastTrack reads whatever your watch has already uploaded to Garmin. To get the freshest numbers:\n\n1.  Wear your watch so it records your day.\n2.  Open the Garmin Connect app and let it sync your watch (pull down to refresh).\n3.  Come back here and tap “Sync now”.</string>
+    <string name="sync_now">Sync now</string>
+    <string name="sync_return_title">Welcome back</string>
+    <string name="sync_return_body">Want to pull your latest Garmin data now?</string>
+    <string name="sync_not_now">Not now</string>
+    <string name="sync_in_progress">Checking Garmin for new data…</string>
+    <string name="sync_done">Garmin data is up to date</string>
+    <string name="sync_not_connected">Connect your Garmin in Settings first</string>
+    <string name="workout_in_progress">In progress — finish to log it</string>
+    <string name="workout_finish">Finish</string>
+    <string name="workout_finished">Logged %1$s · %2$d min</string>
+    <string name="sleep_nudge_title">How did you sleep?</string>
+    <string name="sleep_nudge_body">Tap to log last night\'s rest. If your watch missed it, we\'ll estimate it from your phone so you just confirm.</string>
+    <string name="sleep_log_title">Log sleep</string>
+    <string name="sleep_save">Save</string>
+    <string name="sleep_bedtime_label">Fell asleep</string>
+    <string name="sleep_wake_label">Woke up</string>
+    <string name="sleep_duration">%1$dh %2$dm of sleep</string>
+    <string name="sleep_estimate_note">Estimated from your phone\'s overnight activity — adjust if needed.</string>
+    <string name="sleep_estimate_none">Set when you fell asleep and woke up.</string>
+    <string name="sleep_saved">Sleep logged: %1$dh %2$dm</string>
+    <string name="settings_sleep_switch">Morning sleep check</string>
+    <string name="settings_sleep_caption">A gentle morning nudge to log last night\'s sleep. If you forgot your watch, FastTrack estimates it from your phone\'s overnight activity.</string>
+    <string name="sleep_usage_title">Allow usage access?</string>
+    <string name="sleep_usage_body">To estimate sleep when your watch misses it, FastTrack reads when your phone was last used at night and first used in the morning. Grant \"Usage access\" on the next screen. You can still log sleep by hand without it.</string>
+    <string name="sleep_usage_open">Open settings</string>
+    <string name="sleep_usage_skip">Not now</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="protocol_title">Fasting protocol</string>
+    <string name="daily_update_title">Daily update</string>
+    <string name="daily_update_chat_coach">Chat with Coach</string>
+    <string name="trends_recovery">Recovery &amp; stress</string>
+    <string name="recovery_battery_short">Battery</string>
+    <string name="recovery_resting_hr">Resting HR</string>
+    <string name="recovery_stress">Stress</string>
+    <string name="recovery_sleep">Sleep</string>
+    <string name="recovery_title">Recovery</string>
+
+    <!-- Schedule -->
+    <string name="schedule_title">Schedule</string>
+    <string name="schedule_sync_calendar">Sync Google Calendar</string>
+    <string name="schedule_add_event">Add to schedule</string>
+
+    <!-- Profile / Settings -->
+    <string name="profile_title">Profile</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_notifications">Reminders</string>
+    <string name="settings_integrations">Connections</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_ai">On-device AI</string>
+    <string name="settings_ai_switch">Enable AI features</string>
+    <string name="settings_ai_detail">Optional. Describe a meal and get calories &amp; macros from an on-device model — nothing leaves your phone. Leave this off to hide every AI feature and enter meals by hand.</string>
+
+    <!-- Integrations -->
+    <string name="integration_garmin">Garmin</string>
+    <string name="integration_health_connect">Health Connect</string>
+    <string name="integration_google_calendar">Google Calendar</string>
+    <string name="integration_web_sync">FastTrack Web</string>
+    <string name="coach_title">Journal</string>
+    <string name="coach_hint">Ask anything about FastTrack</string>
+    <string name="coach_send">Send</string>
+    <string name="coach_new_chat">New chat</string>
+    <string name="coach_thinking">Coach is thinking…</string>
+    <string name="nav_coach">Journal</string>
+    <!-- Weight logging -->
+    <string name="weight_title">Weight</string>
+    <string name="log_weight_title">Log weight</string>
+    <string name="weight_hint">Enter your weight</string>
+    <string name="weight_save">Save</string>
+    <string name="weight_invalid">Enter a valid weight</string>
+    <string name="weight_last_logged">Last logged: %1$s</string>
+    <string name="weight_saved">Weight logged: %1$s</string>
+    <!-- Chat / Journal -->
+    <string name="chat_mode_coach">Coach</string>
+    <string name="chat_mode_journal">Journal</string>
+    <string name="journal_hint">Write what\'s on your mind…</string>
+    <string name="journal_thinking">Reflecting…</string>
+    <string name="journal_save">Save entry</string>
+    <string name="journal_saving">Summarizing your entry…</string>
+    <string name="journal_empty_title">What\'s on your mind?</string>
+    <string name="journal_empty_body">Type your thoughts and talk it through. When you\'re done, save the entry and it\'ll be summarized and categorized for you.</string>
+    <string name="journal_history_title">Past entries</string>
+    <string name="journal_saved">Saved: %1$s</string>
+    <string name="journal_delete">Delete entry</string>
+    <string name="integration_not_connected">Not connected</string>
+    <string name="integration_connected">Connected</string>
+
+    <!-- Notification channels -->
+    <string name="channel_reminders_name">Reminders</string>
+    <string name="channel_reminders_desc">Hydration, fasting and workout reminders</string>
+    <string name="channel_fasting_name">Fasting timer</string>
+    <string name="channel_fasting_desc">Ongoing fasting window status</string>
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="ai.anthracite.fasttrack.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_water"
+            app:destination="@id/waterFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_nutrition"
+            app:destination="@id/nutritionFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_exercise"
+            app:destination="@id/exerciseFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_fasting"
+            app:destination="@id/fastingFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_coach"
+            app:destination="@id/coachFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_profile"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_trends"
+            app:destination="@id/trendsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fastingFragment"
+        android:name="ai.anthracite.fasttrack.ui.fasting.FastingFragment"
+        android:label="@string/fasting_title"
+        tools:layout="@layout/fragment_fasting">
+        <action
+            android:id="@+id/action_fasting_to_protocol"
+            app:destination="@id/protocolFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/logHubFragment"
+        android:name="ai.anthracite.fasttrack.ui.log.LogHubFragment"
+        android:label="@string/nav_log"
+        tools:layout="@layout/fragment_log_hub">
+        <action
+            android:id="@+id/action_log_to_water"
+            app:destination="@id/waterFragment" />
+        <action
+            android:id="@+id/action_log_to_nutrition"
+            app:destination="@id/nutritionFragment" />
+        <action
+            android:id="@+id/action_log_to_exercise"
+            app:destination="@id/exerciseFragment" />
+        <action
+            android:id="@+id/action_log_to_coach"
+            app:destination="@id/coachFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/waterFragment"
+        android:name="ai.anthracite.fasttrack.ui.water.WaterFragment"
+        android:label="@string/water_title"
+        tools:layout="@layout/fragment_water">
+        <argument
+            android:name="dayMs"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nutritionFragment"
+        android:name="ai.anthracite.fasttrack.ui.nutrition.NutritionFragment"
+        android:label="@string/nutrition_title"
+        tools:layout="@layout/fragment_nutrition">
+        <argument
+            android:name="dayMs"
+            android:defaultValue="0L"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_nutrition_to_mealEditor"
+            app:destination="@id/mealEditorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mealEditorFragment"
+        android:name="ai.anthracite.fasttrack.ui.nutrition.MealEditorFragment"
+        android:label="@string/meal_editor_title"
+        tools:layout="@layout/fragment_meal_editor">
+        <argument
+            android:name="entryId"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="dayMs"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="ai.anthracite.fasttrack.ui.exercise.ExerciseFragment"
+        android:label="@string/exercise_title"
+        tools:layout="@layout/fragment_exercise">
+        <action
+            android:id="@+id/action_exercise_to_trends"
+            app:destination="@id/trendsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/trendsFragment"
+        android:name="ai.anthracite.fasttrack.ui.trends.TrendsFragment"
+        android:label="@string/trends_title"
+        tools:layout="@layout/fragment_trends" />
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="ai.anthracite.fasttrack.ui.schedule.ScheduleFragment"
+        android:label="@string/schedule_title"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ai.anthracite.fasttrack.ui.profile.ProfileFragment"
+        android:label="@string/profile_title"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_to_settings"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profile_to_integrations"
+            app:destination="@id/integrationsFragment" />
+        <action
+            android:id="@+id/action_profile_to_schedule"
+            app:destination="@id/scheduleFragment" />
+        <action
+            android:id="@+id/action_profile_to_achievements"
+            app:destination="@id/achievementsFragment" />
+        <action
+            android:id="@+id/action_profile_to_protocol"
+            app:destination="@id/protocolFragment" />
+        <action
+            android:id="@+id/action_profile_to_dailyupdate"
+            app:destination="@id/dailyUpdateFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="ai.anthracite.fasttrack.ui.achievements.AchievementsFragment"
+        android:label="@string/achievements_title"
+        tools:layout="@layout/fragment_achievements" />
+
+    <fragment
+        android:id="@+id/protocolFragment"
+        android:name="ai.anthracite.fasttrack.ui.fasting.ProtocolFragment"
+        android:label="@string/protocol_title"
+        tools:layout="@layout/fragment_protocol" />
+
+    <fragment
+        android:id="@+id/dailyUpdateFragment"
+        android:name="ai.anthracite.fasttrack.ui.dailyupdate.DailyUpdateFragment"
+        android:label="@string/daily_update_title"
+        tools:layout="@layout/fragment_daily_update" />
+
+    <fragment
+        android:id="@+id/weeklyReviewFragment"
+        android:name="ai.anthracite.fasttrack.ui.weekly.WeeklyReviewFragment"
+        android:label="Weekly review"
+        tools:layout="@layout/fragment_weekly_review" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ai.anthracite.fasttrack.ui.settings.SettingsFragment"
+        android:label="@string/settings_title"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/coachFragment"
+        android:name="ai.anthracite.fasttrack.ui.coach.CoachFragment"
+        android:label="@string/coach_title"
+        tools:layout="@layout/fragment_coach">
+        <action
+            android:id="@+id/action_coach_to_profile"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/integrationsFragment"
+        android:name="ai.anthracite.fasttrack.ui.settings.IntegrationsFragment"
+        android:label="@string/settings_integrations"
+        tools:layout="@layout/fragment_integrations" />
+</navigation>

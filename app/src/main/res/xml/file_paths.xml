@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- JSON exports written to {cacheDir}/exports and shared via FileProvider. -->
+    <cache-path
+        name="exports"
+        path="exports/" />
+    <!-- Meal photos captured with the system camera for on-device analysis. -->
+    <cache-path
+        name="meal_photos"
+        path="meal_photos/" />
+</paths>

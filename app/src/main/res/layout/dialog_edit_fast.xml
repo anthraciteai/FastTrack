@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/dayLabel"
+        style="@style/Text.FastTrack.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap a time to adjust it." />
+
+    <!-- Start -->
+    <TextView
+        style="@style/Text.FastTrack.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Started"
+        android:textAllCaps="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/startButton"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="start|center_vertical"
+        app:icon="@drawable/ic_fasting"
+        tools:text="Mon, 8:00 PM" />
+
+    <!-- End -->
+    <TextView
+        style="@style/Text.FastTrack.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Stopped"
+        android:textAllCaps="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/endButton"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="start|center_vertical"
+        app:icon="@drawable/ic_check"
+        tools:text="Tue, 2:00 PM" />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/stillGoingSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Still fasting (no stop time yet)" />
+
+    <TextView
+        android:id="@+id/durationLabel"
+        style="@style/Text.FastTrack.SectionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        tools:text="18h 0m" />
+</LinearLayout>

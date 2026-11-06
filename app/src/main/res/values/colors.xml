@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Anthracite brand (shared light/dark) ===== -->
+    <color name="brand_ember">#FF7A1A</color>
+    <color name="brand_gold">#FFC24B</color>
+    <color name="brand_ink">#1A0F02</color>
+
+    <!-- ===== Material 3 LIGHT scheme: ember/gold on warm neutrals ===== -->
+    <color name="md_primary">#C14D0A</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#FFDCC2</color>
+    <color name="md_on_primary_container">#3A1700</color>
+
+    <color name="md_secondary">#8A6A00</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#FBE2A0</color>
+    <color name="md_on_secondary_container">#2A2000</color>
+
+    <color name="md_tertiary">#5B4BA6</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#E4DEFF</color>
+    <color name="md_on_tertiary_container">#1A1148</color>
+
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+
+    <color name="md_background">#FAF8F5</color>
+    <color name="md_on_background">#1B1A18</color>
+    <color name="md_surface">#FAF8F5</color>
+    <color name="md_on_surface">#1B1A18</color>
+    <color name="md_surface_variant">#ECE6DE</color>
+    <color name="md_on_surface_variant">#4E4840</color>
+    <color name="md_surface_container">#F3EEE7</color>
+    <color name="md_surface_container_high">#ECE6DE</color>
+    <color name="md_outline">#837B70</color>
+    <color name="md_outline_variant">#D3CBC0</color>
+
+    <!-- ===== Feature accents (light) ===== -->
+    <color name="accent_water">#2F7FD1</color>
+    <color name="accent_water_container">#D7E8FB</color>
+    <color name="accent_nutrition">#1F9E5B</color>
+    <color name="accent_nutrition_container">#D7F0DF</color>
+    <color name="accent_exercise">#DD5A2E</color>
+    <color name="accent_exercise_container">#FBE0D6</color>
+    <color name="accent_fasting">#5B4BA6</color>
+    <color name="accent_fasting_container">#E4DEFF</color>
+
+    <color name="macro_protein">#D83A3A</color>
+    <color name="macro_carbs">#C98A00</color>
+    <color name="macro_fat">#B89500</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="scrim">#66000000</color>
+</resources>

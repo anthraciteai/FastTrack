@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularProgressView">
+        <attr name="cpvStrokeWidth" format="dimension" />
+        <attr name="cpvRingColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TrendChartView">
+        <attr name="tcvAccent" format="color" />
+        <attr name="tcvMode" format="enum">
+            <enum name="line" value="0" />
+            <enum name="bar" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

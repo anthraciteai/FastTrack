@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="?attr/colorSurfaceContainer"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/challengeTitle"
+                style="@style/Text.FastTrack.SectionTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="Hydration hero" />
+
+            <TextView
+                android:id="@+id/challengeProgress"
+                style="@style/Text.FastTrack.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3 / 5 days" />
+
+            <ImageView
+                android:id="@+id/challengeDone"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="6dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_check"
+                android:visibility="gone"
+                app:tint="@color/accent_nutrition"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/challengeDesc"
+            style="@style/Text.FastTrack.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            tools:text="Hit your water goal on 5 days" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/challengeBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100"
+            app:indicatorColor="@color/accent_fasting"
+            app:trackColor="?attr/colorSurfaceVariant"
+            app:trackCornerRadius="6dp"
+            app:trackThickness="6dp"
+            tools:progress="60" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

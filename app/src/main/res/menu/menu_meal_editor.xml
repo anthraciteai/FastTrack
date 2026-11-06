@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_load_sample"
+        android:title="@string/meal_editor_load_sample"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_export_json"
+        android:title="@string/meal_editor_export"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_meal"
+        android:title="@string/meal_editor_delete_meal"
+        app:showAsAction="never" />
+</menu>

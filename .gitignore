@@ -1,0 +1,37 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# On-device model weights bundled into the app are large and license-gated — keep them out of git.
+app/src/main/assets/models/*.task
+app/src/main/assets/models/*.bin
+app/src/main/assets/models/*.tflite
+app/src/main/assets/models/*.litertlm
+
+# Kotlin / Gradle incremental caches
+.kotlin
+
+# Web app (built artifacts, deps, and per-user synced snapshots) — web has its own .gitignore too,
+# but guard here as well so health data in web/data is never committed.
+web/node_modules
+web/dist
+web/data
+
+# Scratch models dir
+/mODELS/
+
+# Root-level on-device model weights — kept out of git for now (too large). The repo still has
+# LFS configured in .gitattributes, so these can be committed via Git LFS later if desired.
+/*.litertlm
